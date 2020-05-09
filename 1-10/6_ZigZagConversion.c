@@ -71,5 +71,7 @@ char * convert(char * s, int numRows) {
         i++;
     }
 
+    free(str);
+
     return s;
 }
